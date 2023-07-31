@@ -6,7 +6,7 @@ function solveEquation(a, b, c) {
   } else if (d = 0) {
     let x = -b / (2 * a);
     let arr = [x];
-  } else (d > 0) {
+  } else {
     let x1 = (-b + Math.sqrt(d) ) / (2*a);
     let x2 = (-b - Math.sqrt(d) ) / (2*a);
     let arr = [x1, x2];
